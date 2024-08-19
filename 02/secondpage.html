@@ -214,7 +214,7 @@
   <h3>
     Форма для відправки файлів
   </h3>
-<form action="">
+<form>
     <label for="myfile">Вибрати файл</label>
     <input type="file" id="myfale" name="myfile">
     <input type="submit" value="Submit">
@@ -223,7 +223,7 @@
 <h3>
     Форма для вибору місяцю
 </h3>
-<form action="">
+<form>
     <label for="month">Оберіть місяць та рік</label>
     <input type="month" id="month" name="month">
     <input type="submit" value="Submit">
@@ -232,7 +232,7 @@
 <h3>
 Форма для вибору номеру
 </h3>
-<form action="">
+<form>
 <label for="quantity">Оберіть номер від 1 до 10:</label>
 <input type="number" id="quantity" name="quantity" min="1" max="10">
 <input type="submit" value="Submit">
@@ -241,8 +241,19 @@
 <h3>
 Форма для вибору часу
 </h3>
+<form>
 <label for="mytime">Оберіть час</label>
 <input type="time" id="mytime">
 <input type="submit" value="Submit">
+</form>
+
+<h3>
+Форма для вводу номеру телефону
+</h3>
+<form>
+    <label for="phone">Введіть свій номер телефона</label>
+    <input type="tel" id="phone" name="phone"
+    placeholder="+380(98)-111-11-11" pattern="[0-9]{1}-[0-9]{2}-[0-9]{3}" required>
+</form>
 </body>
 </html>
