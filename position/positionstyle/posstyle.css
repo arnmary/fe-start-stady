@@ -1,0 +1,97 @@
+body{
+ background-color: #E5E5E5; 
+ margin: 0;  
+}
+
+
+.blacksquare{
+    width: 512px;
+    height: 512px;
+    background-color: #000;
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+.vector{ 
+    /* width: 300px;
+    height: 300px; */
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 97px;
+   
+}
+.flag{
+    position: absolute;
+    top: 307px;
+    left: 192px;
+    width: 80px;
+    padding: 32px;
+}
+.blue-part{
+    width: 80px;
+    height: 30px;
+    background-color: #2137FC;
+    border-radius: 6px 6px 0 0;
+}
+.yellow-part{
+    width: 80px;
+    height: 30px;
+    background-color: #FFD84B;
+    border-radius: 0 0 6px 6px;
+}
+.blue-yellow-square{
+    width: 512px;
+    height: 512px;
+    position: relative;
+    top: -74px;
+    left: 750px;
+    z-index: 3;
+}
+.blue-square{
+    width: 512px;
+    height: 256px;
+    background-color: #2137FC;
+}
+.yellow-square{
+    background-color: rgb(255, 206, 34);
+    width: 512px;
+    height: 256px;
+}
+.gliph-vector{
+    position: absolute;
+    top:141px;
+    left: 81px;
+ 
+}
+.thirth-square{
+    width: 512px;
+    height: 512px;
+    background-color: white;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    position: relative;
+    top: -171px;
+    left: 1162px;
+}
+.circle{
+    position: absolute;
+    top: 27px;
+    left: 38px;
+}
+.thirth-blue-square{
+    width: 444px;
+    height: 233.5px;
+    background-color:#2137FC;
+    border-radius: 280px 280px 0 0;
+}
+.thirth-yellow-square{
+    height: 233.5px;
+    background-color: #FFD84B;
+    border-radius: 0 0 280px 280px;
+}
+.thirth-square-gliph{
+    position: absolute;
+    top: 233px;
+    left: 22px;
+}
