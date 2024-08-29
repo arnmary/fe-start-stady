@@ -31,62 +31,71 @@ main{
 width: 360px;
 background-color: #FFF;
 margin: 15px auto;
-padding: 22px;
+padding: 56px 20px 91px 24px;
 color: rgb(0, 48, 73);
+font-size: 16px;
 border-radius: 25px;
 }
 .search-input{
-    width: 100%;
+    width: 320px;
     background-color: #EFEFEF;
-    padding: 15px 203px 14px 15px;
+    padding: 15px 15px 14px 15px;
     border-radius: 15px;
     margin-top: 17px;
     margin-bottom: 29px;
+    border: none;
 }
 .cards{
-    margin-top: 29px;
     width: 100%;
     display:flex;
-    justify-content: space-between; 
 }
 .card{
     width: 74px;
     margin-right: 24px;
+    text-align: center;
 
 }
+.card:last-child{
+    margin-right: 0;
+}
 .card-image{
-   min-width: 34px;
-    background-color: #EAE2B7;
-    border-radius: 15px;
-    padding: 18px;
+    width: 74px;
+    height: 74px;
+    background-color:rgb(239, 239, 239);
+    border-radius: 12px;
+    padding-top: 20px;
 }
-h3{
-    text-align: center;
+.card h3{
+margin-top: 8px;
+line-height: 19px;
+color: rgb(196, 196, 196);
 }
-.back-gray {
-    background-color: #EFEFEF;
-}
+
 .block-card{
-    width: 100%;
+    width: 316px;
     border: 2px solid #80808012;;
     border-radius: 15px;
     border-style: outset;
     margin-bottom: 12px;
-    position: relative;
+    display: flex;
 }
 .block-card-image{
    width: 70px;
-    position: absolute;
-    top: 6px;
-    left: 16px;
-    padding-right: 12px;
+   height: 70px;
+     margin: 5px 16px 14px 16px;
 }
 p{
     color: #D62828;
-    text-align: center;
-    margin: 7px 0 22px;
+    text-align: left;
+    margin: 8px 0 22px;
 }
 h3{
     text-align: center;
-    margin-bottom: 5px;
+   margin: 22px 0 8px;
 }
+ .card:hover .card-image{
+    background-color: rgb(234, 226, 183);
+ }
+ .card:hover h3{
+    color:rgb(0, 48, 73);
+ }
