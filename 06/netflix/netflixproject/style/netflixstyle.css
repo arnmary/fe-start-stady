@@ -24,11 +24,14 @@
     background-image: url(../images/Rectangle\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0;
+  }
+  main{
     max-width: 1728px;
     margin: 0 auto;
     padding: 1.9%;
-    color: #FFF;
-
   }
 
   header{
@@ -44,6 +47,10 @@
   .apper{
     padding-right: 1.15%;
   }
+  .date{
+    color:rgb(200, 200, 200) ;
+  }
+  
   .nav-left{
     width: 50%;
     display: flex;
@@ -56,6 +63,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    font-size: 36px;
   }
   .nav-right a{
     width: 8.02%;
@@ -63,9 +71,10 @@
     padding-right:1.07% ;
     color: rgb(255, 255, 255);
   }
- main{
-    width: 50%;
- }
+  .nav-right img{
+    margin-left: 25px;
+  }
+  
  .over-heading{
     display: flex;
     flex-direction: row;
@@ -92,8 +101,17 @@
  .list-item{
     padding-right: 3.2%;
  }
+ .rating{
+    width: 12.26%;
+    font-size: 26px;
+ }
  .yellow{
     color: #FFEA2B;
+   }
+   .rating i{
+    width: 32px;
+    height: 23.53px;
+    padding-right: 14px;
    }
  .left-button{
     width:272px;
@@ -101,6 +119,7 @@
     background-color: rgb(213, 13, 31);
     border-radius: 10px;
     margin: 4.84% 5.20% 4.84% 0;
+    font-size: 23px;
  }
  .right-button{
     background: none;
@@ -108,8 +127,9 @@
     height: fit-content;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 16px 29px 16px 58px;
+    padding: 16px 29px 16px 18px;
     text-wrap: nowrap;
+    font-size: 20px;
  }
  .buttons a{
  color: #FFF;
@@ -123,21 +143,30 @@
   
  }
  .icons-container{
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.86%;
+    font-size: 18px;
  }
  .icons a{
-    max-width: 32px;
+   width: 32px;
+   height: 32px;
     color: #FFF;
     border: 1px solid white;
-    border-radius: 100%;
-    margin-right: 7px;
+    border-radius: 50%;
+    /* margin-right:0; */
     padding: 6px;
+    display: inline-block;
+    text-align: center;
+ }
+ .icons a :last-child{
+    margin-right: 0;
  }
  .block-images{
+    width: 50%;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -145,6 +174,7 @@
    flex-wrap: nowrap;
  }
  block-images a{
+    width: 15%;
     margin-right: 2.89%;
  }
  .limiter{
