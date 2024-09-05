@@ -1,0 +1,168 @@
+html{
+    font-size: 16px;
+}
+.roboto-400 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-700 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-100 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #E5E5E5;
+    margin: 0;
+  }
+  main{
+    background-color: rgb(247, 250, 252);
+    max-width: 1440px;
+    margin: 0 auto;
+    color: rgb(45, 55, 72);
+    padding-left: 11.73%;
+    padding-right: 10.97%;
+  }
+  .main-heading{
+    font-size: 2.5rem;
+    text-align: center;
+   padding-top: 5.21rem;
+   margin: 0;
+  }
+  .header-text{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.31rem;
+    padding-bottom: 3.5rem;
+    margin: 0;
+  }
+  .button{
+    width: 77.29%;
+    height: 3.93rem;
+    border-bottom: 1px solid rgb(203, 213, 224);
+    margin: 0 auto;
+  }
+  .cards{
+    width: 76.59%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    row-gap: 1.62rem;
+   padding-top: 3.5rem;
+    padding-bottom: 6.43rem;
+    margin: 0 auto;
+  }
+  .card between{
+   align-self: flex-start;
+   padding-top: 24px;
+   height: 565px;
+  }
+  
+  .card{
+   width: 31.73%;
+    background-color: #FFF;
+    margin-right: 25px;
+    box-shadow: 3px 4px 11px 1px #6a6f75ae;
+  }
+  .card-heading{
+   color: #2D3748;
+  }
+  h2{
+    font-size: 1.87rem;
+    color: rgb(45, 55, 72);
+    padding-left: 1.5rem;
+    padding-top: 1.71rem;
+    padding-bottom: 2.20rem;
+
+  }
+  .price{
+    font-size: 3.12rem;
+    color: #000;
+    text-align: center;
+  }
+  .text{
+    color: rgb(74, 85, 104);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.18rem;
+    padding: 2.18rem 1.5rem 3rem;
+  }
+  .list{
+    color: #000;
+    text-align: center;
+
+  }
+  .list-item{
+    font-size: 1rem;
+    padding-bottom: 2.12rem;
+    padding-right: 5.75rem;
+    padding-left: 4.31px;
+    text-wrap: nowrap;
+    
+  }
+  .end-text{
+    height: 4.37rem;
+    background-color: rgb(237, 242, 247);
+  }
+  .end-text p{
+    text-align: center;
+    padding: 1.5rem 3rem;
+    text-wrap: nowrap;
+  }
+  .pink{
+    background-color: #EA0774;
+    color:#F7FAFC;
+  }
+  @media screen and (max-width:1200px) {
+  main{
+     background-color: #ec8cba;
+     }
+     .cards{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .list-item{
+        text-wrap: wrap;
+    }
+    li{
+        list-style-type: disc rgb(203, 213, 224); 
+    }
+    .card{
+        min-width: 77%;
+    }
+  }
+  @media screen and (max-width:600px) {
+ main{
+        background-color: rgb(158, 244, 244);
+    }
+    .cards{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .list-item{
+        text-wrap: wrap;
+    }
+    .card{
+     min-width: 80%;
+    }
+    
+  }
+  
+ 
