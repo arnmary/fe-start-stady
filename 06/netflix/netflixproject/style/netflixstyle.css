@@ -118,18 +118,28 @@
     height:64px;
     background-color: rgb(213, 13, 31);
     border-radius: 10px;
-    margin: 4.84% 5.20% 4.84% 0;
-    font-size: 23px;
+    /* margin: 4.84% 5.20% 4.84% 0; */
+    font-size: 22px;
+    border: none;
  }
  .right-button{
     background: none;
-    width: 184px;
+    /* width: 184px; */
     height: fit-content;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 16px 29px 16px 18px;
+    padding: 16px 54px 16px 54px;
     text-wrap: nowrap;
-    font-size: 20px;
+    font-size: 22px;
+ }
+ .buttons{
+   padding: 50px 0 70px;
+ }
+ .buttons button{
+   margin-left: 5%;
+ }
+ .buttons button:first-child{
+   margin-left: 0;
  }
  .buttons a{
  color: #FFF;
@@ -137,6 +147,7 @@
  }
  .left-button i{
     padding-left: 7px;
+  
  }
  h2{
     font-size: 22px;
@@ -157,7 +168,7 @@
     color: #FFF;
     border: 1px solid white;
     border-radius: 50%;
-    /* margin-right:0; */
+    margin-left: 24px;
     padding: 6px;
     display: inline-block;
     text-align: center;
@@ -178,10 +189,10 @@
     margin-right: 2.89%;
  }
  .limiter{
-   width: 174px;
-    height: 34px;
+  min-width: 174px;
+    height: 64px;
     position: fixed;
-    right:-59px;
+    right: 0;
     bottom: 9.31%;
     display: flex;
     flex-direction: row;
@@ -190,16 +201,16 @@
  .red-part{
     background-color: rgb(213, 13, 31);
     width: 32px;
-    height: 66px;
+    height: 64px;
  }
 .grey-part{
-    width:82px ;
-    height:66px;
+    width:141px ;
+    height:64px;
     background-color: rgba(255, 255, 255, 0.49);
  }
  .limiter p{
     font-size: 24px;
-    padding: 15px 3px 3px 19px;
+    padding: 15px 33px 14px 59px;
     margin: 0 auto;
     text-align: center;
  }
