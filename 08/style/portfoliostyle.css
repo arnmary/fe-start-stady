@@ -57,7 +57,24 @@
     font-weight: 100;
     font-style: italic;
   }
-
+  .work-sans-600 {
+   font-family: "Work Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+ }
+ .work-sans-700 {
+   font-family: "Work Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+ }
+ .work-sans-500 {
+   font-family: "Work Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+ }
   *{
     box-sizing: border-box;
   }
@@ -213,8 +230,8 @@ margin-left: 1.37rem;
     width: 50%;
  }
  .deck-image{
-  width: 36.5rem;
- height: 34.68rem;
+ max-width: 30rem;
+  max-height: 16rem;
  }
  .part-right{
     width: 50%;
@@ -344,15 +361,22 @@ padding: 0.31rem 1.25rem;
     color: var(--third-text-color);
  }
  .posters-wrapper{
+   max-width: 90%;
    display: flex;
    flex-direction: row;
-   padding: 3.31rem;
-   padding-right: 4.25rem;
  }
+ .posters{
+   max-width: 35%;
+ }
+ .posters img{
+   max-width: 90%;
+ }
+
  .a-var{
     margin: 0 1.48rem 1.95rem 0;
  }
  .b-var{
+   margin-top: 2.5rem;
     margin-right: 1.68rem;
  }
  .c-var{
@@ -362,6 +386,7 @@ padding: 0.31rem 1.25rem;
     margin: 0 0 1.89rem 2.47rem;
  }
  .f-var{
+   margin-top: 2.81rem;
     margin-left: 2.31rem;
  }
  .testimonials{
@@ -383,7 +408,12 @@ padding: 0.31rem 1.25rem;
     background-color: var(--light-background-color);
     border-radius: 0.5rem;
     padding: 3.18rem 3.24rem 3.04rem 2.06rem;
+    margin-right: 2.5rem;
  }
+ .test-cards :last-child{
+   margin-left: 0;
+ }
+
  .test-title{
     font-size: 2.45rem;
     color: var(--main-text-color);
@@ -480,8 +510,11 @@ margin-top: 0.81rem;
    flex-direction: column;
    justify-content: space-between;
   }
+  .part-right{
+   max-width: 100%;
+  }
   .deck-image img{
-   max-width: 60%;
+   max-width: 70%;
    text-align: center;
   }
   .list-wrapper{
@@ -491,19 +524,20 @@ margin-top: 0.81rem;
    justify-content: space-around;
   }
   .posters-wrapper{
-   max-width: 90%;
+   max-width: 35rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
   }
-  .posters-wrapper img{
+  .posters{
    max-width: 100%;
-   max-height: 100%;
-   text-align: center;
+  }
+  .poster img{
+ max-width: 30rem;
   }
   .c-var,.e-var{
-   margin-top: 2rem;
+   margin-top: 1rem;
   }
   .test-cards{
    max-width: 100%;
@@ -511,8 +545,12 @@ margin-top: 0.81rem;
    flex-direction: column;
    align-items: center;
   }
+  .test-cards :last-child{
+   margin-left: 2rem;
+  }
   .test-card{
    width: 90%;
+   margin: 2rem auto;
   }
   .foot-cards{
    max-width: 100%;
@@ -523,13 +561,9 @@ margin-top: 0.81rem;
   .edge,.middle{
    max-width: 90%;
    margin-bottom: 2rem;
-  }
-
-
-
-
-
+  
  }
+}
 
  
 
