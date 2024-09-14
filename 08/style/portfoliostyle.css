@@ -390,13 +390,14 @@ padding: 0.31rem 1.25rem;
     margin-left: 2.31rem;
  }
  .testimonials{
-    width: 100%;
+   max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8.47rem 4.75rem 11.93rem 3.8rem;
+    padding: 8.47rem 5.75rem 11.93rem 2.8rem;
  }
  .test-cards{
+   max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -411,7 +412,7 @@ padding: 0.31rem 1.25rem;
     margin-right: 2.5rem;
  }
  .test-cards :last-child{
-   margin-left: 0;
+   margin-right: 0;
  }
 
  .test-title{
@@ -539,18 +540,23 @@ margin-top: 0.81rem;
   .c-var,.e-var{
    margin-top: 1rem;
   }
+  .testimonials{
+   max-width: 100%;
+   padding: 5rem 2rem ;
+  }
   .test-cards{
    max-width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
   }
-  .test-cards :last-child{
-   margin-left: 2rem;
-  }
+ 
   .test-card{
    width: 90%;
    margin: 2rem auto;
+  }
+  .test-cards :last-child {
+   margin-right: 0;
   }
   .foot-cards{
    max-width: 100%;
