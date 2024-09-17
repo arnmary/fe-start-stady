@@ -1,0 +1,39 @@
+:root{
+    font-size: 16px;
+    --second-background-color:#668E68;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+main{
+    margin:0 auto
+}
+.shadows-into-light-400 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .zen-kaku-gothic-500 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.noto-sans-georgian-500 {
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header{
+background-color:var(--second-background-color);
+}
+.fourth-block{
+background-color:rgba(129, 97, 59, 0.2);
+}
+footer{
+    margin: 0;
+}
