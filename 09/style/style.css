@@ -27,7 +27,22 @@ main{
   font-weight: 500;
   font-style: normal;
 }
+.rounded-img{
+    border: 0.8rem solid #81613B;
+    overflow: hidden;
+}
+.title-block{
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
+.my-card{
+    margin: 1rem auto;
+}
+.buttons-text{
+    color: white;
+    text-decoration: none;
+}
 header{
 background-color:var(--second-background-color);
 }
@@ -36,4 +51,7 @@ background-color:rgba(129, 97, 59, 0.2);
 }
 footer{
     margin: 0;
+}
+i{
+    padding: 0.5rem;
 }
